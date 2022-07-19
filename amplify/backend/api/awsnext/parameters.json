@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "awsnext",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authawsnext943b981c",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

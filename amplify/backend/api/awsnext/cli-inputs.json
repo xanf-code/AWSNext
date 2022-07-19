@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "awsnext",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/darshanaswath/Desktop/Builds/NextAWS/awsnext/amplify/backend/api/awsnext/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authawsnext943b981c"
+      }
+    ]
+  }
+}
